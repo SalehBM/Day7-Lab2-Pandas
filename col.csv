@@ -1,0 +1,20 @@
+|  Column name  |  New column name  |  Description  |
+| ----- | -------- | ------- |
+| pos    | Num_posts        | Number of total posts that the user has ever posted   |
+| flg    | Num_following    | Number of following                                   |
+| flr    | Num_followers    | Number of followers                                   |
+| bl     | Biography_length | Length (number of characters) of the user's biography |
+| pic    | Picture_availability | Value 0 if the user has no profile picture, or 1 if has |
+| lin    | Link_availability| Value 0 if the user has no external URL, or 1 if has |
+| cl     | Average_caption_length | The average number of character of captions in media |
+| cz     | Caption_zero     | Percentage (0.0 to 1.0) of captions that has almost zero (<=3) length |
+| ni     | Non_image_percentage | Percentage (0.0 to 1.0) of non-image media. There are three types of media on an Instagram post, i.e. image, video, carousel
+| erl    | Engagement_rate_like | Engagement rate (ER) is commonly defined as (num likes) divide by (num media) divide by (num followers)
+| erc    | Engagement_rate_comment | Similar to ER like, but it is for comments |
+| lt     | Location_tag_percentage | Percentage (0.0 to 1.0) of posts tagged with location |
+| hc     | Average hashtag count   | Average number of hashtags used in a post |
+| pr     | Promotional keywords | Average use of promotional keywords in hashtag, i.e. regrann, contest, repost, giveaway, mention, share, give away, quiz |
+| fo     | Followers keywords | Average use of followers hunter keywords in hashtag, i.e. follow, like, folback, follback, f4f|
+| cs     | Cosine similarity  | Average cosine similarity of between all pair of two posts a user has |
+| pi     | Post interval      | Average interval between posts (in hours) |
+| class  | real_fake          | r (real/authentic user), f (fake user/bought followers) |
